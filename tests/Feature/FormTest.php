@@ -9,7 +9,7 @@ use Illuminate\Foundation\Testing\WithoutMiddleware;
 
 class FormTest extends TestCase
 {
-    use WithFaker,WithoutMiddleware, RefreshDatabase;
+    use WithFaker,WithoutMiddleware;
     /**
      * A basic feature test example.
      *
